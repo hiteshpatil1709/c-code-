@@ -1,0 +1,16 @@
+// code to verify entered character is a digit or not !!
+#include<stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter character:");
+    scanf("%c",&ch);
+    if(ch >= '0' && ch <= '9'){
+        printf("the character is digit!\n");
+    }
+   else{
+    printf("the character is not a digit!");
+   }
+   return 0;
+}
